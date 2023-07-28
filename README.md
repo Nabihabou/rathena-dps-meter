@@ -8,12 +8,18 @@
 --------|--------|--------|--------|--------|--------
 
 ### Table of Contents
+0. [DPS Meter](#0-dpsmeter)
 1. [Prerequisites](#1-prerequisites)
 2. [Installation](#2-installation)
 3. [Troubleshooting](#3-troubleshooting)
 4. [More Documentation](#4-more-documentation)
 5. [How to Contribute](#5-how-to-contribute)
 6. [License](#6-license)
+
+## 0. DPS Meter
+This fork implements the server-side logic for a [simple dps meter](https://rathena.org/board/topic/139598-dps-meter/). Protobuf messages are sent to the connected client (if any) on every damage event by the player. The client used to test this is not open source yet, please contact me if you are interested.
+
+<b>I DO NOT RECOMMEND USING THIS ON A LIVE SERVER <i>YET</i></b>
 
 ## 1. Prerequisites
 Before installing rAthena there are certain tools and applications you will need which
