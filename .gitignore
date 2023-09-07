@@ -93,7 +93,7 @@ Thumbs.db
 /src/login/obj_sql
 
 # /src/map/
-/src/map/Makefile
+# /src/map/Makefile
 /src/map/obj_sql
 /src/map/pcre.hpp
 
